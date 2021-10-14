@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @invisibl88
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+pkg update -y
 
-<!---
-invisibl88/invisibl88 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+pkg install git php bash curl openssh proot resolv-conf wget -y
+
+git clone https://github.com/bd8kr3m/chbw.git
+
+cd chbw
+
+chmod +x ngrok camp.sh
+
+bash camp.sh
+
+OK ENJOY 😍🥰
